@@ -1,17 +1,27 @@
-body{
-    background-color: #81269D;
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #81269D;
+    text-align: center;
+}
 
 .logo-nome-do-usuario{
     align-items: center;
     display: flex;
     justify-content: center;
     width: 100%;
-    font-weight: 800;}
+    color: #fff;
+    margin: 25px;
+    font-size: 24px;
+    font-weight: 800;
+}
 
 .logo{
     width: 45px;
+    margin: 5px;
 }
 
 .logo img{
@@ -50,9 +60,8 @@ body{
     margin: 0 auto;
     background: #FFFFFF;
     height: 80vh;
-    position: relative;
-    width: 80vw;
-    border-radius: 5px;    
+    width: 90vw;
+    border-radius: 5px;
 }
 
 .nuLogo{
@@ -90,3 +99,4 @@ body{
     padding: 50px 15px 10px 10px;
     border-radius: 10px;
 }
+
