@@ -2,6 +2,7 @@ body{
     background-color: #81269D;
     padding-top: 30px;
     padding-bottom: 100px;
+    font-family: sans-serif;
  
 }
 
@@ -68,7 +69,6 @@ body{
 }
 
 .btn_entrar{
-    border-color:  #81269D;
     line-height: 2.5;
     padding: 0 20px;
     font-size: 1rem;
@@ -78,4 +78,6 @@ body{
     border-radius: 10px;
     background-color: #FFFFFF;
     margin-top: 40px; 
+    text-decoration: none;
+    border: solid 2px #81269D;
 }
