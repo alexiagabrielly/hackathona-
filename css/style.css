@@ -1,0 +1,33 @@
+body{
+    background-color: #81269D;
+}
+
+.logo-nome-do-usuario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    width: 45px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.painel-principal{
+    background: #FFFFFF;
+    height: 80vh;
+    position: relative;
+    width: 80vw;
+}
+
+.servicos{
+    display: flex;
+}
+
+.servicos .indicar-amigo{
+    background: #9140A9;
+}
