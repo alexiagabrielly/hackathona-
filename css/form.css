@@ -25,10 +25,12 @@ p {
 input {
     font-size: 30px;
     width: 100%;
+    border: 0;
 }
 
 input:focus{
     outline: none;
+    border: 0;
 }
 
 a {
@@ -40,4 +42,9 @@ a {
 
 img {
     height: 100%;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
 }
