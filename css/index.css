@@ -14,89 +14,64 @@ body {
     justify-content: center;
     width: 100%;
     color: #fff;
-    margin: 25px;
     font-size: 24px;
     font-weight: 800;
 }
 
-.logo{
+.logo-nu {
     width: 45px;
     margin: 5px;
 }
 
-.logo img{
-    width: 100%;
-}
-
-.rectangle{
-    position: absolute;
-    width: 101px;
-    height: 101px;
-    left: 18px;
-    top: 645px;
-    
-    background: #9140A9;
-    border-radius: 10px;
-}
-
-.nuPoupe{
-    position: absolute;
-    width: 43px;
-    height: 33px;
-    left: 138px;
-    top: 604px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
-}
-
-.painel-principal{
+.painel-principal img {
     margin: 0 auto;
     background: #FFFFFF;
     height: 80vh;
     width: 90vw;
-    border-radius: 5px;
+    height: auto;
 }
 
-.nuLogo{
+.circulos img {
+    width: 30px;
+    height: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 95vw;
+    max-height: 112px;
+    right: 0;
     position: absolute;
-    width: 54px;
-    height: 41px;
-    left: 121px;
-    top: 32px;
-    
-    background: url('../img/nu-logo.png');
-}
-
-.servicos{
     display: flex;
-    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: left;
 }
 
-.servicos .indicar-amigo{
+nav div {
     background: #9140A9;
-    padding: 50px 15px 10px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 112px;
+    height: 112px;
+    padding: 80px 0 0 10px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
-.servicos .cobrar{
-    background: #9140A9;
-    padding: 50px 15px 10px 10px;
-    border-radius: 10px;
+
+nav div:first-of-type {
+    margin-left: 0px;
 }
-.servicos .depositar{
-    background: #9140A9;
-    padding: 50px 15px 10px 10px;
-    border-radius: 10px;
+
+
+nav div:last-of-type {
+    width: 35px;
+    overflow: hidden;
+    margin-right: 0;
+    right: 0;
 }
-.servicos .nupoupe{
-    background: #9140A9;
-    padding: 50px 15px 10px 10px;
-    border-radius: 10px;
+
+nav div:hover {
+    background: #a15cb6;
 }
 
