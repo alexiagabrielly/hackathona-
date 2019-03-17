@@ -75,3 +75,7 @@ nav div:hover {
     background: #a15cb6;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+}
