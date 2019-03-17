@@ -1,0 +1,64 @@
+body{
+    background-color: #81269D;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.logo-nome-do-usuario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #81269D
+}
+
+.logo{
+    width: 150px;
+    background-color: #81269D
+}
+
+.logo img{
+    width: 100%;
+    background-color: #81269D
+}
+
+.painel-principal{
+    background: #FFFFFF;
+    height: 80vh;
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.propaganda{
+    color: black;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    width:70%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.seta{
+position: absolute;
+width: 20px;
+height: 8px;
+left: 177px;
+top: 85px;
+padding-top:400px;
+}
+
+.marketing{
+    color: black;
+    align-items: center;
+    text-align: center;
+    width:70%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+

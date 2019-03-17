@@ -2,13 +2,12 @@ body{
     background-color: #81269D;
 }
 
-
 .logo-nome-do-usuario{
     align-items: center;
     display: flex;
     justify-content: center;
     width: 100%;
-    font-weight: 800;}
+}
 
 .logo{
     width: 45px;
@@ -18,51 +17,13 @@ body{
     width: 100%;
 }
 
-.rectangle{
-    position: absolute;
-    width: 101px;
-    height: 101px;
-    left: 18px;
-    top: 645px;
-    
-    background: #9140A9;
-    border-radius: 10px;
-}
-
-.nuPoupe{
-    position: absolute;
-    width: 43px;
-    height: 33px;
-    left: 138px;
-    top: 604px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: normal;
-    letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
-}
-
 .painel-principal{
-    margin: 0 auto;
     background: #FFFFFF;
     height: 80vh;
     position: relative;
     width: 80vw;
-    border-radius: 5px;    
-}
-
-.nuLogo{
-    position: absolute;
-    width: 54px;
-    height: 41px;
-    left: 121px;
-    top: 32px;
-    
-    background: url('../img/nu-logo.png');
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 .servicos{
