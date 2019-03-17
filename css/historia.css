@@ -1,8 +1,6 @@
 body{
-
-}
-
-.historia{
+    overflow: hidden;
+    
 }
 
 span{
@@ -30,4 +28,54 @@ button{
     background-color: #FFFFFF;
     color: #81269D;
     border: solid 1px #81269D;
+}
+
+
+@keyframes dragaoanim {
+    0% {    top: 1200px;
+        right: -700px;
+    opacity: 0;}
+    100% {top: -20px;
+        right: -350px;}
+  }
+
+@keyframes guerreiroanim {
+    0% {bottom: -900px;
+        left: -600px;}
+    100% {bottom: -30px;
+        left: -100px;}
+}
+@keyframes historiaanim {
+    0% { opacity:0; top: -600px;}
+    100% {opacity: 0.8; top: 0;}
+  }
+
+  
+
+.img_dragao {
+    z-index: -2;
+    position: absolute;
+    top: -20px;
+    right: -350px;
+    animation-name: dragaoanim;
+    animation-duration: 0.8s;
+    opacity: 1;
+}
+
+.img_guerreiro {
+    z-index: -1;
+    position: absolute;
+    bottom: -30px;
+    left: -100px;
+    animation-name: guerreiroanim;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+}
+
+.historia{
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    animation-name: historiaanim;
+    animation-duration: 1s;
+
 }
