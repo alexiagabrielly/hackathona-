@@ -8,3 +8,26 @@ body{
 span{
     color: #81269D;
 }
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn-roxo{
+    background-color: #81269D;
+    color: #FFFFFF;
+}
+
+.btn-branco{
+    background-color: #FFFFFF;
+    color: #81269D;
+    border: solid 1px #81269D;
+}
