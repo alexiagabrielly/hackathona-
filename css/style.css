@@ -22,12 +22,32 @@ body{
     height: 80vh;
     position: relative;
     width: 80vw;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 .servicos{
     display: flex;
+    justify-content: space-between;
 }
 
 .servicos .indicar-amigo{
     background: #9140A9;
+    padding: 50px 15px 10px 10px;
+    border-radius: 10px;
+}
+.servicos .cobrar{
+    background: #9140A9;
+    padding: 50px 15px 10px 10px;
+    border-radius: 10px;
+}
+.servicos .depositar{
+    background: #9140A9;
+    padding: 50px 15px 10px 10px;
+    border-radius: 10px;
+}
+.servicos .nupoupe{
+    background: #9140A9;
+    padding: 50px 15px 10px 10px;
+    border-radius: 10px;
 }
