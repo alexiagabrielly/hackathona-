@@ -2,6 +2,7 @@ body{
     background-color: #81269D;
     padding-top: 30px;
     padding-bottom: 80px;
+    overflow: hidden;
 }
 
 .logo-nome-do-usuario{
@@ -23,15 +24,59 @@ body{
 }
 
 .card {
+    top: 400px;
+
     background-color: #fff;
+    
     border-radius: 5px;
+    
     display: flex;
+    
     justify-content: space-around;
+    
     height: 80px;
+    
+    position: relative;
 }
 
 img {
     width: 40px;
     fill: red;
+}
+
+.card img:hover {
+    opacity: 0.4;
+}
+
+.char {
+    max-height: 400px;
+
+    top: 20px;
+    
+    position: absolute;
+}
+
+.char img {
+    width: auto;
+    max-height: 550px !important;
+
+}
+
+.char img:hover {
+    opacity: 0.8;
+}
+
+.flecha {
+    filter: brightness(4);
+
+position: absolute;
+
+bottom: 20px;
+
+right: 20px;
+}
+
+.flecha:hover {
+    filter: brightness(80);
 }
 

@@ -1,81 +1,69 @@
-body{
-    overflow: hidden;
+body {
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  font-size: 26px;
+}
+
+.img_dragao {
+    position: absolute;
+    width: 200px;
+    top: -20px;
+    right: -30px;
     
 }
 
-span{
-    color: #81269D;
+.img_dragao img {
+    
+    width: 200px;
 }
 
-.btn{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.historia {
+  color: #000000;
+  position: absolute;
+  top: 160px;
+  padding: 20px;
 }
 
-button{
-    border: none;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.btn-roxo{
-    background-color: #81269D;
-    color: #FFFFFF;
-}
-
-.btn-branco{
-    background-color: #FFFFFF;
-    color: #81269D;
-    border: solid 1px #81269D;
+.historia span {
+    color: #81269d;
 }
 
 
-@keyframes dragaoanim {
-    0% {    top: 1200px;
-        right: -700px;
-    opacity: 0;}
-    100% {top: -20px;
-        right: -350px;}
-  }
 
-@keyframes guerreiroanim {
-    0% {bottom: -900px;
-        left: -600px;}
-    100% {bottom: -30px;
-        left: -100px;}
-}
-@keyframes historiaanim {
-    0% { opacity:0; top: -600px;}
-    100% {opacity: 0.8; top: 0;}
-  }
-
-  
-
-.img_dragao {
-    z-index: -2;
+.btn {
+    text-align: center;
     position: absolute;
-    top: -20px;
-    right: -350px;
-    animation-name: dragaoanim;
-    animation-duration: 0.8s;
-    opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 50px;
 }
 
-.img_guerreiro {
-    z-index: -1;
-    position: absolute;
-    bottom: -30px;
-    left: -100px;
-    animation-name: guerreiroanim;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
+button {
+    
+    font-size: 18px;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 25px;
 }
 
-.historia{
-    background-color: #FFFFFF;
-    opacity: 0.8;
-    animation-name: historiaanim;
-    animation-duration: 1s;
+button:last-of-type {
+    margin-left: 10px;
+}
 
+button:hover {
+    background-color: #c457e6;
+}
+
+.btn-roxo {
+  background-color: #81269d;
+  color: #ffffff;
+}
+
+.btn-branco {
+  background-color: #ffffff;
+  color: #81269d;
+  border: solid 1px #81269d;
 }
